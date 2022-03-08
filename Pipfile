@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[requires]
+python_version = "3"
+
+[pipenv]
+allow_prereleases = true
+
+[dev-packages]
+pylint = "*"
+flake8 = "*"
+autopep8 = "*"
+ipdb = "*"
+pep8 = "*"
+
+[packages]
+testinfra = "~=3.2.0"
+pytest = "~=5.1.3"
